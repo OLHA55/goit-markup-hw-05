@@ -522,7 +522,7 @@ button.hero-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 
+  width: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -542,72 +542,3 @@ button.hero-button {
   margin-bottom: 16px;
 }
 /*--Modal--*/
-.backdrop {
-  
-  width: 100vw;
-  height: 100vw;
-  background-color: rgba(46, 47, 66, 0.04);
-  transition: opacity 300ms ease-in, visibility 300ms ease-in;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-.backdrop.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: initial;
-}
-.bg-modal {
-  width: 408px;
-  min-height: 584px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: var(--DAIRY, #fcfcfc);
-  position: absolute;
-  top: 80px;
-  left: 400px;
-}
-.modal-btn {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-   background-color: #e7e9fc;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
-.modal-btn-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 8px;
-  height: 8px;
-  fill: #2e2f42;
-  position: absolute;
-  top: 24px;
-  right: 24px;
-
- 
-  
-}
-.modal-caption {
-  color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
-margin-top: 72px;
-display: flex; 
- justify-content: center;
- margin-bottom: 16px;
-
-}
-.form-input{
-  display: flex;
-  padding: 8px;
-  display: flex;
-width: 360px;
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
-}

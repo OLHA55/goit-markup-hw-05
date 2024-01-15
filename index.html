@@ -370,12 +370,19 @@
                     <use href="images/modal.svg#icon-close-black"></use>
                 </svg>               
             </button>
+            
                 <p class="modal-caption">Leave your contacts and we will call you back</p>
-                <form class="form" name="modal-form" autocomplete="off">
-                    
+                <form class=".connection-field" name="modal-form" autocomplete="off" >
+                    <label class="">
                     <label class="form-label">
                         Name
-                        <input class="form-input" type="text" name="username">
+                        <input class="connection-field" type="text" placeholder="Имя" name="name" required-placeholder="">
+                        
+                        </form>
+                        <svg class="modal-icon-1">
+                            <use xlink:href="./images/modal.svg#icon-person-black"></use>
+                        </svg>
+
                     </label>
                     <label class="form-label">
                         Phone
@@ -387,10 +394,12 @@
                     </label>
                     <label class="form-label">
                         Comment
-                        <textarea class="form-input" name="comment" rows="5"></textarea>
+                        <textarea class="form-input" name="comment" placeholder="Text input" rows="5"></textarea>
                     </label>
+                    
 
                 </form>
+            
         </div>
     </div>  
 </body>
